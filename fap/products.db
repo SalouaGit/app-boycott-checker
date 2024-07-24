@@ -1,0 +1,11 @@
+SQLite format 3^@^P^@^A^A^@@  ^@^@^@^B^@^@^@^C^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^D^@^@^@^@^@^@^@^@^@^@^@^A^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@>^O�^@^B^O7^@^O7^O�^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@>^A^G^W^]^]^A�mtableproductsproducts^BCREATE TABLE products (
+        name TEXT PRIMARY KEY,
+        boycotted BOOLEAN,
+        description TEXT
+    )/^B^F^WC^]^A^@indexsqlite_autoindex_products_1products^C^@^@^@^H^@^@^@^@
+^@^@^@  ^K^B^@^Ox^N�^NN
+�
+A^L|^K�^K�^K^B^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@>sidi aliA Moroccan mineral water brand known for its purity and quality.�^L^G^E^W^H�^QglassGlass is a 100% Moroccan carbonated drink>^@^@^@  ^O�^@^O�^O�^O�^O�^O�^O�^O�^O�^O�^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@^@>
+
+
+

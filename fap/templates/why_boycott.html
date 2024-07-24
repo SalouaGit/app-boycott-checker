@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boycott Checker - Why Boycott</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            background-color: #333;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            margin-bottom: 0;
+        }
+        .hero-section {
+            background: url('/static/images/bg.jpg') no-repeat center center;
+            background-size: cover;
+            height: calc(100vh - 56px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+        }
+        .hero-section .content-box {
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+        .hero-section h1 {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Boycott Checker</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('about') }}">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{ url_for('why_boycott') }}">Why Boycott</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero-section">
+        <div class="content-box">
+            <h1>Why Boycott</h1>
+            <p>It’s a Form of Non-Violent Resistance: Boycotts are a form of non-violent resistance that can be an effective way to pressure Israel to change its policies and respect the rights of Palestinians.</p>
+            <p>It’s a Moral Imperative: Boycotts can be a moral imperative for those who believe in human rights and justice. By boycotting Israel, individuals can make a statement about their values and ethics.</p>
+            <p>It’s a Form of Solidarity: Boycotts can be a way to show solidarity with the Palestinian people and their struggle for justice and human rights.</p>
+            <p>It’s a Way to Promote Change: Boycotts can be an effective way to promote change and pressure Israel to end its occupation and respect the rights of Palestinians.</p>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
