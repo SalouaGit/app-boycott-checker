@@ -1,1 +1,1 @@
-app boycott checker
+L'application web développée dans ce projet a pour but de vérifier si un produit est boycotté ou non, développée par le framework du python Flask et basée sur une base de données SQLite. Elle offre une interface utilisateur simple et intuitive pour entrer le nom d'un produit et obtenir des informations sur son statut de boycott
